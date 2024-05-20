@@ -1,0 +1,31 @@
+.search {
+  color: #898989;
+  width: 15%;
+  padding: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.dark {
+  background-color: #303030;
+  border-left: 1.5px solid #343434;
+}
+.light {
+  background-color: #f4f4f4;
+  border-left: 1.5px solid #d6d6d6;
+}
+@media screen and (max-width: 768px) {
+  .dark {
+    border-color: #2e2e2e;
+  }
+  .light {
+    border: 1px solid #d9d9d9;
+  }
+}
+h1 {
+  font-size: 400px;
+}
+.button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

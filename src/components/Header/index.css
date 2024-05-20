@@ -1,0 +1,55 @@
+.sun {
+  color: white;
+  font-size: 27px;
+  margin: 0 15px;
+}
+.moon {
+  color: #0f0f0f;
+  font-size: 27px;
+  margin: 0 15px;
+}
+@media screen and (max-width: 768px) {
+  .sun,
+  .moon {
+    font-size: 22px;
+    margin: 0 4px;
+  }
+}
+.logout-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  height: 100%;
+  padding: 20px;
+}
+.profile {
+  height: 30px;
+  width: 30px;
+  margin: 0 15px;
+}
+.link {
+  height: 100%;
+  width: 100%;
+  margin: 18px 0 0 0;
+}
+.align-right {
+  align-self: flex-end;
+  margin: 30px 30px 0 0;
+}
+.Link {
+  text-decoration: none;
+  width: 100vw;
+  cursor: pointer;
+}
+.white {
+  color: white;
+}
+.blue {
+  color: #475569;
+}
+.nav {
+  padding-top: 9px;
+}
+.isActiveHome {
+  color: #ff0000 !important;
+}
